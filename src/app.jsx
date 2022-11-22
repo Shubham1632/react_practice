@@ -5,12 +5,13 @@ import Footer from "./footer";
 
 
 
+
 export default function App(){
     return(
         <>
-        <Header />
-    <Content></Content>
-    <Footer></Footer>
+            <Header />
+            <Content />
+            <Footer />
         </>
     );
 }
