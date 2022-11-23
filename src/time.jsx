@@ -3,8 +3,9 @@ import { useState } from "react";
 
 export default function Time(){
 
+
     var [time, settime] = useState( new Date().toLocaleTimeString());
-    
+
     function updatetime(){
         time = settime( new Date().toLocaleTimeString());
     }

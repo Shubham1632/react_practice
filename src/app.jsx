@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./header";
 import Content from "./content";
 import Footer from "./footer";
-import Time from "./time";
+import Hook from "./hooks";
 
 
 
@@ -11,7 +11,7 @@ export default function App(){
         <>
 
             <Header />
-            <Time />
+            <Hook/>
             <Content />
             <Footer />
         </>
