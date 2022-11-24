@@ -2,16 +2,15 @@ import React from "react";
 import Header from "./header";
 import Content from "./content";
 import Footer from "./footer";
-import Hook from "./hooks";
+import Form from "./form";
 
 
 
 export default function App(){
     return(
         <>
-
             <Header />
-            <Hook/>
+            <Form />
             <Content />
             <Footer />
         </>

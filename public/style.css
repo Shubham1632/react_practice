@@ -45,3 +45,9 @@ img{
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+
+.form{
+    position: relative;
+    margin: 30px;
+    margin-left: 30%;
+}
